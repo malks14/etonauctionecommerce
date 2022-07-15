@@ -4,7 +4,7 @@ import styles from '../../styles/Products.module.css';
 import Product from './Product';
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from "framer-motion";
-import { ButtonSecondary } from '../_App/ButtonSecondary';
+import ButtonSecondary from '../_App/ButtonSecondary';
 
 const transition = { duration: 0.5, ease: "easeInOut" };
 
