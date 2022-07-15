@@ -1,0 +1,56 @@
+[
+  {
+    "artist": "English Painting",
+    "name": "If You Don't Like Me In The Nude The FxxK Off",
+    "category": "Fine Arts",
+    "price": 9850.00,
+    "description": "Description of the painting",
+    "sku": "594-54-9502",
+    "mediaUrl": "https://res.cloudinary.com/devops-imgcloud/image/upload/v1638324982/etonauctions/Collections/Indian%20Miniature/IMG_0600_ks4jzk.png"
+  },
+  {
+    "artist": "M. F. Husain",
+    "name": "Mother Teresa",
+    "category": "Fine Arts",
+    "price": 42800.00,
+    "description": "Description of the painting",
+    "sku": "868-50-9482",
+    "mediaUrl": "https://res.cloudinary.com/devops-imgcloud/image/upload/v1638281437/etonauctions/Collections/Exlusive%20Paintings/WhatsApp_Image_2021-11-29_at_07.28.38_2_mduxep.jpg"
+  },
+  {
+    "artist": "M. F. Husain",
+    "name": "Mother Teresa",
+    "category": "Fine Arts",
+    "price": 36500.00,
+    "description": "Description of the painting",
+    "sku": "534-20-2675",
+    "mediaUrl": "https://res.cloudinary.com/devops-imgcloud/image/upload/v1638281437/etonauctions/Collections/Exlusive%20Paintings/WhatsApp_Image_2021-11-29_at_07.28.38_igv9pl.jpg"
+  },
+  {
+    "artist": "M. F. Husain",
+    "name": "Limited Edition",
+    "category": "Fine Arts",
+    "price": 5500.00,
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
+    "sku": "797-94-5844",
+    "mediaUrl": "https://res.cloudinary.com/devops-imgcloud/image/upload/v1637602497/etonauctions/Collections/Exlusive%20Paintings/MF_Husain_limited_edition_5_300_ce8ztt.jpg"
+  },
+  {
+    "artist": "Jamini Roy",
+    "name": "Cruxification",
+    "category": "Fine Arts",
+    "price": 75400.00,
+    "description": "Description of the painting",
+    "sku": "797-94-5844",
+    "mediaUrl": "https://res.cloudinary.com/devops-imgcloud/image/upload/v1638277335/etonauctions/Collections/Exlusive%20Paintings/Cruxi_eux4ov.jpg"
+  },
+  {
+    "artist": "Ghulam Rasool Santosh",
+    "name": "Sculptures",
+    "category": "Fine Arts",
+    "price": 8500.00,
+    "description": "Description of the painting",
+    "sku": "797-94-5844",
+    "mediaUrl": "https://res.cloudinary.com/devops-imgcloud/image/upload/v1638277333/etonauctions/Collections/Exlusive%20Paintings/GRSantosh01_igg2gu.jpg"
+  }
+]

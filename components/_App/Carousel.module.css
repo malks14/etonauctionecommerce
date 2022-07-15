@@ -1,0 +1,161 @@
+.carousel-wrapper{ 
+    overflow: hidden;
+    width: 500px;
+    
+    flex-direction: row;
+}
+
+.img {
+    width: 500px;
+}
+
+
+.inner{
+    white-space: nowrap;
+    
+    transition: transform 0.73s ease-out;
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    
+}
+
+.indicators{
+    display: flex;
+    justify-content: center;
+}
+
+.indicators > button {
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+    padding: 5px 10px;
+
+    margin-top: 18px;
+}
+
+.indicators > button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.65s ease-out;
+}
+
+@media (max-width: 1024px) {
+    .carousel-wrapper{ 
+        overflow: hidden;
+        width: 90vw;
+        
+    }
+    
+    .inner{
+        white-space: nowrap;
+        transition: transform 0.73s ease-out;
+        width: 100%!important;
+    }
+    
+    .carousel-item {
+        padding-top: 10px!important;
+        height: 400px!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .carousel-item > img {
+        padding-top: 10px!important;
+        height: 20px!important
+    }
+    
+    .indicators{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .indicators > button {
+        margin: 4px;
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        color: rgba(0,0,0,0.6);
+        cursor: pointer;
+        padding: 5px 8px;
+        margin-top: 18px;
+        width: 290px;
+    }
+    .indicators > button > img {
+        color: rgba(255,255,255,1);
+     
+    }
+    
+    .indicators > button:hover{
+        color: white;
+        background-color: black;
+        transition: 0.65s ease-out;
+    }
+  }
+
+@media (max-width: 425px) {
+    .carousel-wrapper{ 
+        overflow: hidden;
+        width: 80vw;
+        margin: auto;
+        height: auto!important;
+    }
+    
+    .inner{
+        white-space: nowrap;
+        transition: transform 0.73s ease-out;
+        width: 100%!important;
+        height: auto!important;
+    }
+    
+    .carousel-item {
+        padding-top: 80px!important;
+        height: auto!important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .carousel-item > img {
+        padding-top: 10px!important;
+        height: 20px!important
+    }
+    
+    .indicators{
+        display: flex;
+        justify-content: center;
+        margin-top: 12px;
+    }
+    
+    .indicators > button {
+        margin: 4px;
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        color: rgba(0,0,0,0.6);
+        cursor: pointer;
+        padding: 5px 8px;
+        margin-top: 18px;
+        width: 290px;
+    }
+    .indicators > button > svg {
+        color: rgba(255,255,255,1);
+     
+    }
+    
+    .indicators > button:hover{
+        color: white;
+        background-color: black;
+        transition: 0.65s ease-out;
+    }
+  }

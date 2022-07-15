@@ -1,0 +1,72 @@
+.main-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 5vw;
+  position: fixed;
+  z-index: 1000;
+  font-family: "Josefin Sans", sans-serif;
+  top: 0;
+  left: 0;
+  padding: 0 1rem;
+  z-index: 5;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+}
+
+
+.hambBtn {
+  width: 30px;
+}
+
+.main-navigation__menu-btn {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.main-navigation__menu-btn img {
+  width: 30px;
+}
+
+.main-navigation__drawer-nav {
+  height: 100%;
+}
+
+.main-navigation__header-nav {
+    display: none;
+  }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 769px) {
+  .main-header {
+    justify-content: space-between;
+  }
+
+  .main-navigation__header-nav {
+    display: block;
+    flex: 0.7;
+  }
+
+  .logo {
+    flex: 0.3;
+  }
+
+  .main-navigation__menu-btn {
+    display: none;
+  }
+}

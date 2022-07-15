@@ -1,0 +1,9 @@
+node_modules
+.next
+
+next.config.*
+vercel.json
+dist
+.vercel
+.DS_Store
+.env
