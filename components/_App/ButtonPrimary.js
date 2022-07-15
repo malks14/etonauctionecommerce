@@ -1,7 +1,7 @@
 import router from 'next/router'
 import React from 'react'
 
-export default function ButtonPrimary(props) {
+function ButtonPrimary(props) {
   return (
       <div>
         <button onClick={() => router.push(`/${props.link}`)}>
@@ -33,3 +33,5 @@ export default function ButtonPrimary(props) {
     </div>
   )
 }
+
+export default ButtonPrimary;

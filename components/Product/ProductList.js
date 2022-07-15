@@ -8,6 +8,17 @@ import ButtonSecondary from '../_App/ButtonSecondary';
 
 const transition = { duration: 0.5, ease: "easeInOut" };
 
+export const getServerSideProps = async (ctx) => {
+	const res = await axios.get(`${baseUrl}/api/product`);
+	const products = res.data;
+	console.log(products)
+	return { props: { products } };
+}
+
+const Arrow = () => (
+	<img src="/assets/arrow.svg" alt="Eton Auctions" className={styles.arrow}/>
+);
+
 const productPreviewVariants = {
 	initial: { opacity: 0 },
 	enter: { opacity: 1, transition },
@@ -63,13 +74,3 @@ function ProductList({ products,  }) {
 
 export default ProductList;
 
-export const getServerSideProps = async (ctx) => {
-	const res = await axios.get(`${baseUrl}/api/product`);
-	const products = res.data;
-	console.log(products)
-	return { props: { products } };
-}
-
-const Arrow = () => (
-	<img src="/assets/arrow.svg" alt="Eton Auctions" className={styles.arrow}/>
-);
