@@ -1,7 +1,7 @@
 import router from 'next/router'
 import React from 'react'
 
-export default function ButtonSecondary(props) {
+function ButtonSecondary(props) {
   return (
     <div>
         <button onClick={() => router.push(`/${props.link}`)}>
@@ -34,3 +34,6 @@ export default function ButtonSecondary(props) {
     </div>
   )
 }
+
+
+export default ButtonSecondary;
