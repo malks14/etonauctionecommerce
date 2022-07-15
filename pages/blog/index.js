@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import "../../styles/Blog.module.css";
 
-import { content } from "./content";
+import content  from "./content";
 
 const transition = { duration: 0.5, ease: "easeInOut" };
 
