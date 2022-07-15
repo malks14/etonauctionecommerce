@@ -1,4 +1,4 @@
-export const content = [
+export default content = [
     {
       id: 0,
       title: "Lorem ipsum dolor",

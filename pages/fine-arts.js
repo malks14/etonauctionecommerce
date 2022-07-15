@@ -1,8 +1,6 @@
-import React, { Fragment } from 'react';
-import axios from 'axios';
+import React from "react"
 import ProductList from '../components/Product/ProductList';
 import ProductPagination from '../components/Product/ProductPagination';
-import baseUrl from '../utils/baseUrl';
 import Head from 'next/head'
 
 function FineArts({ products, totalPages }) {
@@ -24,13 +22,5 @@ function FineArts({ products, totalPages }) {
 	);
 }
 
-FineArts.getInitialProps = async ctx => {
-	const page = ctx.query.page ? ctx.query.page : '1';
-	const size = 9;
-	const url = `${baseUrl}/api/products`;
-	const payload = { params: { page, size } };
-	const response = await axios.get(url, payload);
-	return response.data;
-}
 
 export default FineArts;
