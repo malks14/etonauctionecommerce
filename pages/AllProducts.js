@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import axios from 'axios';
-import ProductList from "../components/Product/ProductList"
-import ProductPagination from '../components/Index/ProductPagination';
+import ProductList from "../components/Product/ProductList";
+import ProductPagination from "../components/Product/ProductPagination"
 import baseUrl from '../utils/baseUrl';
 
 function AllProducts({ products, totalPages }) {
