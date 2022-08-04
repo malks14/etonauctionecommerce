@@ -9,6 +9,10 @@
     width: 500px;
 }
 
+.carouselImg {
+    width: 200px;
+    height: 200px;
+}
 
 .inner{
     white-space: nowrap;
